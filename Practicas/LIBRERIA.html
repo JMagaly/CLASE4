@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ne" dir="ltr">
+  <!--Metadatos-->
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Esta es la descripcion de mi sitio web">
+      <meta name="keywords" content="fime, técnias desarrollo web, learn">
+      <meta name="robots" content="NOINDEX, NOFOLLOW">
+      <meta name="author" content="FIME">
+      <title>Libreria Qwert - Tarea 1 Modulo 3 TDW</title>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="/css/StylesLib.css">
+  </head>
+  <!--Cuerpo de la pagina Web-->
+  <body>
+    <!--Titulo principal de la pagina - usando cabeceras-->
+    <div id="welcome">
+      <div class="container">
+        <div class="welcome-content">
+          <center>
+          LIBRERIA
+          <h1>LIBRERIA QWERTY </h1>
+          <h3>"Lectura digital y más"</h3>
+          <h2>Bienvenido</h2>
+          <!--Imagen local para representar la Libreria-->
+          <br>
+          <div align ="center">
+            <img src="Imagenes/Libreria_Quade.jpg" width="350" height="250" alt="Libreria Qwerty">
+            <br>
+            <!--Link interno - dirige a un catalogo de novelas-->
+            <br>
+            <a href="/Practicas/NOVELAS.html">
+            Ir al catalogo de Novelas </a>
+            <br>
+            <br>
+            <!-- Links Externos - para ir a otras paginas de Liberias -->
+            <a href = "https://www.gandhi.com.mx/"
+            >click para ir a LIBRERIAS GANDHI</a>
+            <br>
+            <a href = "https://www.elsotano.com/"
+            target="_blank">click para ir a LIBERIAS EL SOTANO</a>
+            <br>
+            <br>
+            <!-- Tabla de los libros más vendidos - Uso de tablas -->
+            <table style="width: 600px">
+              <h3> LOS MAS VENDIDOS </h3>
+              <thead>
+                <tr>
+                  <th>Titulo </th>
+                  <th>Autor </th>
+                  <th>Existencia</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Un beso en París </td>
+                  <td>(Stephanie Perkins)</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>Química Perfecta </td>
+                  <td>(Simone Elkeles)</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <td>Vampire Academy </td>
+                  <td>(Richelle Mead)</td>
+                  <td>6</td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <br>
+            <!--Uso de formularios -->
+            <!-- Boton Radio para seleccionar tipo de busqueda-->
+          <div>
+            <label for="busquedas">Buscar por:...</label>
+            <input type="radio" name="busquedas"
+            value="autor" id="busquedas"> Autor
+            <input type="radio" name="busquedas"
+            value="titulo" id="busquedas"> Titulo
+            <input type="radio" name="busquedas"
+            value="editorial" id="busquedas"> Editorial
+          </div>
+          <!-- TEXTO Linea de formulario para indicar texto a buscar -->
+          <div>
+            <label for="buscar">INDIQUE EL TEXTO A BUSCAR: ... </label><br>
+            <input type="text" id="buscar" name="buscar" value="">
+          </div>
+          <!--Input submit-->
+          <input type="submit"  value="Enviar">
+          <!--Button submit-->
+          <!--Textarea - define area de texto para comentarios-->
+          <div>
+            <label for="comentarios">Comentarios y Sugerencias</label><br>
+            <textarea name="comentarios" id="comentarios" cols="50"
+            rows="5" maxlength="10"></textarea>
+          </div>
+          <!--Input submit-->
+          <input type="submit"  value="Enviar">
+          <!--Button submit-->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

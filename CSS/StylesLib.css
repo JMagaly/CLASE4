@@ -1,0 +1,220 @@
+/* <!--Paso 3--> Reiniciar */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Estilo Menú */
+html, body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ /*font-family: Times New Roman cursive, Gabriola, Tahoma, Geneva, Verdana cursive, sans-serif;*/
+ line-height: 1.7em;
+}
+
+a {
+ color: #333;
+ text-decoration: none;
+}
+
+h1, h2, h3 {
+ padding-bottom: 15px;
+}
+
+p {
+ margin: 5px 0;
+}
+/* Clases Generales */
+
+/* container mantendrá el contenido centrado y con un máximo de ancho */
+.container {
+ margin: auto;
+ max-width: 1350px; /*area disponible para el navbar en el container de encabezado */
+ overflow: auto;
+ padding: 0 15px;
+ background: #FFDAB9;
+}
+
+#welcome {
+  background: #CD5C5C;
+}
+
+#welcome .welcome-content {
+  color: #9ACD32; /*#ADFF2F; /* #F0E68C; /* #01DF01; /*#58FA58; /*#9FF781; COLOR TEXTO 2 DE LOS SUBTITULOS COMBINADOS*/
+  text-align: center;
+  padding-top: 230px;  /*DISTANCIA A PARTIR DE LA CUAL EMPIEZA EL TEXTO EN EL CONTENT DE WELCOME*/
+}
+
+#welcome .welcome-content h1 {  /*uso las propuedades de la clase y agrego mas para h1 */
+  font-size: 60px;
+  line-height: 1em;  /¨* interlineado DESPUES DEL ENCABEZADO 1 */
+}
+
+#welcome .welcome-content p {
+  color: #000000; /*#FFBF00; /*AGREGADA ESTA LINEA PARA CAMBIAR COLOR TEXTO  */
+  padding-bottom: 30px;
+  line-height: 1.3em; /*INTERLINEADO DEL TEXTO EN WELCOME*/
+}
+
+/*------<!--Paso 5--> */
+.text-primary {
+  color: #3CB371; /* #483D8B;  /*#A52A2A; /*#BA55D3; /*#EE82EE; /*#DDA0DD; /* #BC8F8F; #FF8000; /*#DF7401;COLOR 1 DE LOS SUBTITULOS COMBINADOS */
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #6495ED; /*#7B68EE;/* #5BBF21;*/
+}
+
+/*----- pASO 8 */
+.btn-light {
+  background: #f4f4f4;  /*COLOR DEL FONDO DE LOS BOTONES "LEER MAS"*/
+  color: #CD5C5C; /*#215b33;*/
+}
+
+.bg-dark {
+  background: #F7BE81;/*#CD853F; /*#DEB887; /*#61380B; /*#61210B; /*#FA8258; /* #215b33; ESTE ES EL COLOR DE WELCOME Y DE TERCER BOX, CAMBIAR TERCER BOX*/
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4; /* ESTE ES EL COLOR DEL PRIMER BOX DE HOME*/
+  color: #800000; /*#483D8B; /*#6A5ACD; /*#9ACD32;/* #9ACD32; /*#DB7093; COLOR DEL TEXTO PARA LA LISTA DE PRODUCTOS*/
+}
+
+.bg-primary {
+  background: #F7BE81; /* #5BBF21; ESTE ESL EL COLOR DEL BOX EN MEDIO DE LA SECCION HOME*/
+  color: #800080;
+}
+
+.bg-second {
+  background: #FE642E; /*#FF8000; /* ESTE ES EL COLOR DEL TERCER BOX DE LA SECCION HOME*/
+  color: #FFB6C1; /*#215b33;*/
+}
+
+/*PASO 11*/
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+/* PASO 13---*/
+.clr {
+  clear: both;
+}
+
+/* Pie de página */
+
+#main-footer {
+  text-align: center;
+  background: #BC8F8F;
+  color: #fff;
+  padding: 20px;
+}
+/*---- PASO 15*/
+.l-heading {   /* defino el tamaño de ka fuente del encabezado, para este tipo o clase de encabezado definido por mi */
+  font-size: 40px;
+}
+
+/* Padding */
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+/* PASO 16*/
+/* Acerca de */
+#product-info {
+  background: url('/Imagenes/INDIVIDUAL.JPG') no-repeat center center/cover;
+  height: 1150px;  /*tamaño de la imagen en la pagina d PRODUCTOS*/
+}
+
+#product-info .info-right {
+  float: right; /*era right*/
+  width: 50%;
+  min-height: 100%;
+}
+
+#product-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%; /*general el borde las esquinas redondas entre mayor el porcentaje mas redondo el borde de la imagen */
+}
+
+#product-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding-left: 50px;
+}
+
+#about-info {
+  background: url('/Imagenes/INDIVIDUAL.JPG') no-repeat center center/cover;
+  height: 500px;  /*tamaño de la imagen en la pagina d PRODUCTOS*/
+}
+
+#about-info .info-right {
+  float: right; /*era right*/
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%; /*general el borde las esquinas redondas entre mayor el porcentaje mas redondo el borde de la imagen */
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding-left: 50px;
+}
+
+/* Testimonos */
+#testimonials {
+  height: 550px;
+  background: #3CB371; /*url('/imagenes/photo-fime-2-sepia-bg.jpg') no-repeat center center/cover;*/
+  padding-top: 30px;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+/* border-radius para obtener el efecto redondo de las imágenes */
+#testimonials .testimonial img {
+  width: 100px;
+  float: center; /*era left  TENGO QUE COMBINAR EL FLOAT CENTER O NONE CN EL HTML ABOUT TAMBEN CENTER EN LA IMAGEN*/
+  margin-right: 20px;
+  border-radius: 50%;
+}
+/* CON CTRL -F  SE ABRE UNA LINEA DE BUSQUEDA PARA LOCALIZAR ALGUNA CLASE O ETIQUETA DENTRO DEL MISMO ARCHIVO Y LOS id QUE INCIIAN CON # */
