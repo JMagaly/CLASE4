@@ -105,7 +105,7 @@ p {
 /* Paso 6 Bienvenida */
 
 #welcome {
-  background: url('/Imagenes/payfresas.jpg') no-repeat center center/cover;
+  background: url('./Imagenes/payfresas.jpg') no-repeat center center/cover;
   height: 450px;  /*tamaño de la imagen */
 }
 
@@ -159,7 +159,7 @@ p {
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url('/Imagenes/dulce_tentacion_logo.jpg') no-repeat center center/cover;
+  background: url('./Imagenes/dulce_tentacion_logo.jpg') no-repeat center center/cover;
   min-height: 100%;  /* compacta el espacio en donde se visulaiza la imagen pero no la imagen */
 }
 
