@@ -26,7 +26,7 @@
 /* Home-Info */
 
 #home-info .info-img {
-  display:none;
+  display:center;
 }
 
 #home-info .info-content {
@@ -37,15 +37,15 @@
 /* Información Secundaria */
 
 .box {
-  float: none;
-  width: 100%;
+  float: center;
+  width: 80%;
 }
 
 /* Acerca de */
 #about-info .info-right,
 #about-info .info-left {
-  float:none;
-  width: 100%;
+  float:center;
+  width: 80%;
 }
 #about-info .info-right {
   margin-top: 30px;
