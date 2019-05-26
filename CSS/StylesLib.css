@@ -142,7 +142,7 @@ p {
 /* PASO 16*/
 /* Acerca de */
 #product-info {
-  background: url('/Imagenes/INDIVIDUAL.JPG') no-repeat center center/cover;
+  background: url('../Imagenes/INDIVIDUAL.JPG') no-repeat center center/cover;
   height: 1150px;  /*tamaño de la imagen en la pagina d PRODUCTOS*/
 }
 
@@ -167,7 +167,7 @@ p {
 }
 
 #about-info {
-  background: url('/Imagenes/INDIVIDUAL.JPG') no-repeat center center/cover;
+  background: url('../Imagenes/INDIVIDUAL.JPG') no-repeat center center/cover;
   height: 500px;  /*tamaño de la imagen en la pagina d PRODUCTOS*/
 }
 
